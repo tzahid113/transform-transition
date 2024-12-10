@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 221);
+    border: 2px solid black;
+    /*transition-property: all;
+    transition-duration: 2s;*/
+    transition:all 2s ease-in 1s;
+}
+div:hover{
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 20px;
+}
+div:active{
+    background-color: brown;
+}
